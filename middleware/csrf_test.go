@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 )

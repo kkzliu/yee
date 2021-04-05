@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"net/http/httptest"

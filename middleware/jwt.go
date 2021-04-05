@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"github.com/dgrijalva/jwt-go"
 )
 

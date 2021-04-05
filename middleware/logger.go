@@ -5,7 +5,7 @@ import (
 	"io"
 	"log"
 
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"github.com/valyala/fasttemplate"
 )
 

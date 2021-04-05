@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cookieY/yee/color"
+	"github.com/kkzliu/yee/color"
 )
 
 // logger types

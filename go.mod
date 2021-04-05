@@ -3,7 +3,6 @@ module github.com/kkzliu/yee
 go 1.15
 
 require (
-	github.com/cookieY/yee v0.2.1
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/google/uuid v1.1.1
 	github.com/mattn/go-colorable v0.1.6

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"github.com/google/uuid"
 )
 

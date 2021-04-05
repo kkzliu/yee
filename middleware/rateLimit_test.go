@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"net/http"
 	"net/http/httptest"
 	"runtime"

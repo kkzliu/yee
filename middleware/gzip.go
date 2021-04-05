@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 )
 
 // GzipConfig defines config of Gzip middleware

@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cookieY/yee/color"
+	"github.com/kkzliu/yee/color"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 )

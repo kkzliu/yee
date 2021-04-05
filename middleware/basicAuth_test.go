@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cookieY/yee"
+	"github.com/kkzliu/yee"
 	"github.com/stretchr/testify/assert"
 )
 
