@@ -60,11 +60,24 @@ func New() *Core {
 	return core
 }
 
+func NewAndSetBasePath(basePath string) *Core {
+	core := CBasePath(basePath)
+	core.l.producer.Printf(banner, core.l.producer.Green(version), core.l.producer.Red(title), core.l.producer.Cyan(creator))
+	return core
+}
+
 func C() *Core {
+	return CBasePath("/")
+}
+
+func CBasePath(basePath string) *Core {
+	if basePath == "" {
+		basePath = "/"
+	}
 	router := &Router{
 		handlers: nil,
 		root:     true,
-		basePath: "/",
+		basePath: basePath,
 	}
 
 	core := &Core{
